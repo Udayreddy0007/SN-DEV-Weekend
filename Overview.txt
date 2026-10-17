@@ -1,0 +1,60 @@
+---> Date : 17/10/26
+
+
+ 
+   ---> SN-prerequistes : 
+      
+
+      --> HTML - basic 
+
+      --> CSS - Basic 
+       
+     --> JavaScript - Intermediate
+
+    
+    ----> SN-Scripting / Development 
+     
+        ---> Client Side  / Browser side :
+           
+           --onLoad():
+           --onChange():
+            --onSubmit():
+            --onCellEdit():
+
+       ----> Server side / DB-Table 
+
+          -- DML operation--Insert() , Update() , Delete() , Query() , Rollback
+
+          -- GlideApi's / Glide objects  , GlideSystems
+            
+            -- GlideRecord
+             -- Glide Aggregate (COUNT , MIN , MAX , AVG , SUM)
+
+
+         ---> Business Rules (BEFORE , AFTER , ASYNC , DISPLAY)
+
+            --- g_scratchpad
+
+         ----> GLideAjax  and Script include(Dev side integration)
+
+
+
+
+
+---> to practice our html , css we will be using a environment  we call it as  IDE
+  
+   ---- Note : We practice our javascript on Browser console
+  
+      IDE(Integrated Development  Environment)
+       
+       -- Vs code( platform where we can do our practice)
+
+
+ ----> Setup 
+    
+    -- Visit this site to download Vs code link is pasted below
+
+         https://code.visualstudio.com/download?_exp_download=d53503e735
+
+
+         -- Download based up on OS( System Configuration)
