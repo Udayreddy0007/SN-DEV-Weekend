@@ -1,0 +1,174 @@
+
+
+---> Date : 23/10/26 
+ 
+   ---> HTML : Hypertext markup language 
+      
+      ---> It will give structure to a web page and tells the browser how  content is displayed over a page  
+
+  --Features :  
+   
+     -- it is easier to understand for begginers  
+     -- it is light weight 
+     -- it allows css 
+     -- it allows js 
+     -- it  supports multimedia -- videos , images  
+     -- platform independent - it can run on every OS -- mac , linux , window
+     -- create a webpage structure  
+
+
+
+ ---> Structure of HTML  :
+
+      -- In HTML everything is treated as TAG  
+        <>(open tag /  open angualr bracket)
+        </>(close tag / closed angular bracket)   
+
+
+      <!DOCTYPE html> -- it tells the browser the document type is html
+           <html> -- in between we gonna define our web page details and content (entry gate)
+                  <head>
+                           -- we define the  our title and meta information about the page , link css , link js
+                  </head>
+                  <body>
+                          -- it will define web page what to display
+                  </body>
+           </html>   --- exit gate 
+
+
+    ---> we write the HTML code in a file and that must be stored with .html extenstion  
+
+
+    --- comments in HTML - 
+
+        <!--here we write the context / content about the page or else line --> 
+
+     ---> Install a extension  -- live server to run your page on the browser
+
+
+----> Tags in HTML  
+   
+   -- title tag : which adds the name to our browser tag 
+      
+       declaration : 
+          
+          <title>My first page</title>
+
+          My first page is the name of the browser tab 
+           and we call it as content
+
+     -- HTML element  : 
+        
+        which gives the complete information of a tag 
+
+         <>content </> -- we call it as html element
+         <>content -- we call it as html element 
+
+         ex : 
+          
+          <title>My first page</title>
+
+
+    -- Heading tag (h1 to h6)-- it will add the heading to our page  
+        
+        declaration : 
+          
+          <h1>content</h1>
+          ---------------
+          <h6>content</h6>
+
+    -- p tag / paragraph tag -- it will add the paragraph on our page 
+
+          declaration : 
+           
+           <p>content</p>
+
+    -- image tag -- it is used to display the image on the webpage  
+     
+        declaration:
+         
+         <img src ="" alt= >
+
+
+
+         --- HTML attribute - which give the some information about the tag
+             
+             src -- html source attribute   , attribute  value
+             alt -- html alternative attribute  , attribute value 
+
+
+      -- anchor tag / a tag -- it will allow us to create hyperlink and allow us to navigate between the pages 
+
+          declaration:
+            
+            <a href ="" >link text content</a>
+
+
+     -- br tag - which break the link and move the element to the 
+          
+          next line
+          
+          declaration : 
+
+          <br>
+
+
+      -- lorem -- duplicate words generated 
+
+
+  -----> Table creation Using HTML 
+   
+     -- table tag : it gives the structure of table 
+      
+      declaration :
+        
+        <table>
+
+          <tr></tr>  --> tr tag - allow us to create the rows in the table 
+          <th></th> --> Table header tag allow us to name the column
+          <td></td> --> table data tag allow us to fill the data inside the table
+        </table>
+
+
+
+
+----> List creation using the html 
+
+  we have two type of list 
+
+   -- ordered list : when sequence matters we use ordered list 
+     ex : 
+           1.INC1001-Email issue-P1
+
+      declaration : 
+         
+         <ol>
+          <li></li>
+         </ol>
+     
+   -- unordered list : when the sequence doesnt  matters we use unordered 
+      
+      ex :
+            . INC1001-Email issue-P1
+
+     declaration :  
+       
+        <ul>
+          <li></li>
+         </ul>
+    
+     -- list item <li></li> : 
+         
+         which display each item in the list either it is a ordered or unordered
+
+
+
+                  
+
+
+          
+           
+    
+
+
+         
