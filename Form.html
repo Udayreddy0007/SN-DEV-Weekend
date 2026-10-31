@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>INC FORM</h1>
+
+    <form>
+
+        <label>Number</label>
+        <input type="text" name="number">
+         <br><br>
+        <label>Caller</label>
+        <input type="text" name="caller">
+        <br><br>
+        <label>Short description</label>
+        <input type="text">
+        <br><br>
+        <label>Created on</label>
+        <input type="date">
+        <br><br>
+        <button onclick="onMsg()">Submit</button>
+    </form>
+</body>
+<script>
+    function onMsg(){
+        alert("Form submitted sucessfully ");
+    }
+</script>
+</html>

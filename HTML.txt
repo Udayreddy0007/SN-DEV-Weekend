@@ -163,6 +163,25 @@
 
 
 
+---> Date :31/10/26
+
+---> Creation of  form using html
+
+     ---> We use <form></form> -- create a form structure 
+
+     --- <label></label> -- used to display the name of the field 
+        
+     --- <input type="text" name =""> -- it creates the field where a user can write
+
+     --- <button></button> -- it will allow the user to create the buttons over the page 
+
+     
+     ---> div -- container tag 
+         declaration : 
+            <div></div>
+
+
+
                   
 
 

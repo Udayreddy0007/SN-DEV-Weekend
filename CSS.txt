@@ -1,0 +1,62 @@
+
+
+---> Date : 31/10/26 
+ 
+   
+   --- CSS : Cascading style sheet
+     
+      ---> CSS helps the developer to decorate the pages / styling the page 
+         
+          --- properties and property value 
+           
+    ---- color , background-color , text-align , BOX Model - margin , padding , border , height , width 
+
+
+    ----> There are 3 ways to  define the style of the page 
+
+     1.Inline CSS : We are decalring css inside the html opening tags 
+
+       declaration : 
+          
+               <p style:"property:value; property2:value;"></p>
+    
+      --> use inline css only when you want to apply style for only one element
+
+     2.Internal CSS :  We can apply the styles on the page  by declaring the css inside the html file 
+                        and it should be decalred within Head tag we use <style></style>
+    
+        -->If you want to apply unique style for a single page we will be using internal css
+
+        declaration : 
+          
+                      <style>
+                         
+                         body {
+                            property: value ;
+                         }
+                         h1{
+                            property : value;
+                         }
+                         
+                      </style>
+
+     3.External CSS : Creating a separate file and declaring the styles init and later connecting
+                     or linking the file with the html pages 
+                     make sure that the css file stored with .css extenstion
+
+        declaration : 
+           
+            in the html  we link that css file inside the head tag by using link tag
+
+            <link rel="stylesheet" href="filename.css" >
+
+
+    ----> BOX Model : 
+      
+        --- Margin :  outside part of border we have 4 direction - top , bottom , left , right
+
+        --- Padding : inside part of border / space around the content - top , bottom ,left and right
+         
+        -- border : adding the edge line around the element 
+
+       -- content : the thing that is displayed over the page -- texts , imgs .....

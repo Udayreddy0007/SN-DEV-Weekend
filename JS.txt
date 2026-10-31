@@ -1,0 +1,169 @@
+
+
+----> Date : 31/10/26 
+ 
+    ---> Javascript : 
+          
+          -- It helps the developer to make a page interactive , it allow to do some actions , 
+            to  run some logics over a page 
+             
+         -- it is programming language 
+         -- set of instructions  (programming )
+         -- it is a client is side language and server side language 
+
+
+ ---- features : 
+  
+     -- Light code 
+     
+     -- it support oops languages - java 
+
+     -- event driven - button event , mouse event ....
+
+
+
+ ----> What is data ? 
+  
+    --  A piece of information 
+     
+     ex : uday , age = 18  , uday@gmail.com
+
+
+     ----> Data Types : define the type of data 
+
+       4 data types 
+
+     1. String : combination of characters and number should be declared in btw "" or ''
+
+       ex : "uday" , "123" ,'18'
+
+    2.Integer : the numbers treated as Integer.
+     
+     ex :  phno: 945447456;
+
+    3.Decimal : the number which has two percision points 
+     
+     ex : percentage - 99.9% ;  , 9.99 
+
+    4. Boolean : check the condition and tells weather the condition is yes / no or true/false 
+     
+     ex : 
+         
+         he/she is 18Y and major -- True 
+         he/she is 15Y and major -- false
+
+----> console.log("Hello world"); --- printing statement 
+    
+    ---> gs.info , gs.print used printing the statement -- in SN
+
+
+
+
+----> Variable Name / Variable in javascript : 
+   
+      it is a container which holds the type of data 
+
+      a name which stores the data  --- variable name 
+       
+    ex : 
+      
+          name = "uday";
+          phno = 97897878;
+          percentage = 98.99;
+          hasId = true ;
+
+        
+ -----> Rules of writing Variable name 
+  
+    -- if a variable name starts with _ (underscore ) /$(dollar symbol) and characters
+        we can treat the name as variable name 
+
+      ex : _name  , n_ame , @name , $name, nam$e 
+
+    -- if a variable name starts numbers we dont consider it as variable name |
+
+      ex :  1name , n1ame , n_1ame , std1 , std$1 
+
+    -- if a variable name has spaces we dont consider it as variable 
+       
+       ex : name_1 , na me1 , nam$ 1 
+
+    -- javascript is a case sensitive language 
+     
+      ex : name , Name 
+
+    -- javascript uses cameCase for naming convention 
+     
+       ex : empName ="uday";
+            employeeName ="uday";
+
+
+---> general syntax : 
+   
+      variable keywords variableName = data ;
+      console.log(variableName);
+    
+
+----> Variable keywords in JS
+  
+    1.let - it is a block scope variable keyword 
+             which  is declared only once  but the values can be updated 
+
+            {
+                 // block
+            }
+
+       ex : 
+               let name ="uday";
+                name="sampath";
+                console.log(name);
+
+
+            let name ="uday";
+             let name="sampath";
+              console.log(name);   // name has been decalred error
+
+    2. const  -- it is also a block scope variable keyword 
+                  which is declared only once and also cannot be updated
+
+            ex : 
+                   use the same code but change the keyword 
+
+    3. var    --  it is a global scope variable keyword 
+                   which can be redecalred and updated 
+  
+
+
+
+----> Operators :  to perform  calculations in programming 
+                       we use operators
+
+     operands   : the two variable before and after the operators 
+        
+        ex :  a + b ;  -- a , b are operands  + is operator 
+
+
+     operator : the symbol btw the operands 
+      
+        
+ ---> In javascripts we have 4  types operators 
+
+   
+   1 . Arithematic operators :   to perform addition , substraction , division and modulo 
+
+      (+ , -, / ,% , *)
+
+
+    2 . Compound Assignment operator : it's combination of assignment and arithematic operators 
+        
+        (=+ , =- , =* ,=/ ,=% , **(ternory operator))
+
+    3 .  Comparisions operators : compare the
+
+
+          
+
+  
+  
+
+             
