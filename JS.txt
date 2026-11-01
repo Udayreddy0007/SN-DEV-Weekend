@@ -138,12 +138,12 @@
 ----> Operators :  to perform  calculations in programming 
                        we use operators
 
-     operands   : the two variable before and after the operators 
+    --  operands   : the two variable before and after the operators 
         
         ex :  a + b ;  -- a , b are operands  + is operator 
 
 
-     operator : the symbol btw the operands 
+    -- operator : the symbol btw the operands 
       
         
  ---> In javascripts we have 4  types operators 
@@ -156,14 +156,325 @@
 
     2 . Compound Assignment operator : it's combination of assignment and arithematic operators 
         
-        (=+ , =- , =* ,=/ ,=% , **(ternory operator))
+        (+= , -= , *= ,/= ,%= , **(ternory operator))
 
-    3 .  Comparisions operators : compare the
+        ex : a = 10 ;
+               a+=5 ; -- a=+ -- a +5 --10+5 -- 15 -- 15
+               console.log(a);  ---
+
+    3 .  Comparisions operators : To compare two operands  
+      
+          (== , === , <=,>=,<,> ,!=)
 
 
+         --> == : is used for comparing the two values it'll give you a Boolean output  
+
+        ---> ===  : is used for exact comparision it'll check both values datatypes even though the 
+                      values are same 
+
+              ex : 
+                   a=10;
+                   b="10";
+                  console.log(a===b); // false
+
+    4. Logical Operators : To check the conditions we will be using them 
+     
+         -- &&(AND) : it check both conditions if both conditions are true then only we get output as true 
+
+         -- ||(OR) : at least one condition should be true then only we get output as true
           
+         -- !(NOT) : if a condition is true it gives output false 
+
+    5. Increment and decrement : 
+        
+       --> ++(increment) :  Incrementing the original value by +1
+          
+          ex : a=10 ;
+               a++; // a + 1 = 10 + 1 = 11
+
+       --> --(decrement) : Decrementing the original value by -1
+      
+         ex : a=10 ;
+               a--; // a - 1 = 10 - 1 = 9
+
+
+----> Date  : 1/11/26
+ 
+
+ ---> Conditional statements :   The block will be exceuted when the condition is true 
+  
+     
+     1. if block (true block): when the condition is true then only the block will be executed 
+        
+
+        syntax : 
+             
+                 if(conditions) 
+                 {
+                       // true statement
+                       
+                 }
+
+
+     2. Nested if block : we write multiple true blocks 
+        
+        syntax : 
+              
+                    if(cond1){
+                       
+                        // statement1
+                    }
+                    if(cond2){
+                      //statement2
+                    }
+                    if(cond3){
+                      //statement3
+                    }
+
+     3. if else(true and false):  when the condition is true then only the block true will be executed otherwise
+
+            default block is exceuted
+             
+             syntax :
+
+                 if(conditions) 
+                 {
+                       // true statement
+                       
+                 }
+
+                 else{
+                          // default block (false block)
+                 }
+
+
+                     
+
+     4. else if : we can write the condition for false block as well
+         
+         syntax : 
+            
+                 if(cond1){
+                   
+                      //stmt1 
+                 }
+                 else if(cond2){
+                  // stmt2
+                 }
+                 else{
+                   
+                     // default statement
+                 }
+
+     5. nested else if :  we write multiple false block conditions 
+      
+         
+           syntax : 
+               
+                 if(cond1){
+
+                     //stmt1 
+                 }
+                 else if(cond2){
+
+                  //stmt2
+                 }
+                 else if(cond3){
+
+                  //stmt3
+                 }
+                 else{
+
+                  //default statement 
+
+                 }
+
+
+
+----> Looping control statements / iterative statements : 
+
+   -- a loop will be iterate as long as condition is true      
+
+
+     1 . for loop  - the loop iterates until the stopping condition is true 
+
+
+           syntax : 
+
+                 Note : i is iterative variable
+                
+                var i = 0;
+
+                for(var i=0; i<=10; i++){
+
+                  // statement;
+                }
+
+                i = 0 ; loop starts here  intial value
+                i<=10; stopping condition 
+                i++  ; Increment
+
+
+
+
+     2. while loop :  the  condition is checked then the loop is executed 
+       
+        syntax : 
+          
+              var  i = 0;
+              
+              while(i<=10){
+
+                //statement
+
+                i++;
+              }
+
+
+     3. do while loop : the loop is excecuted at least once and condition is checked at the last 
+
+
+          Syntax : 
+ 
+             var i=0;
+               do{
+                // statement ;
+                i++;
+               }while(i<=10);
+
+
 
   
+  -----> Array in javascript : 
+    
+         --- Group of similar data stored  is stored under a name we call it as array 
+            
+
+              ex  :  storing the city names using a array 
+
+             
+            city = ["hyderabad","mumbai","rajasthan","goa","Ap"];
+
+            index is a value at which the data is stored inside a memory 
+            index value starts from 0 
+            legth of the above array is 5
+
+            console.log(city[0]);
+            console.log(city.length); -- 5
+
+
+  --> if you want to print the data inside the array use for loop  
+    
+      --->  var  cities = ["Hyderabad" , "Mumbai" , "Vizag" , "Rajasthan"];
+             for(var i=0; i<=cities.length; i++){
+                 console.log(cities[i]);
+             }
+
+      
   
+
+  ----> Functions in javaScript : 
+       
+       A block of reusable code we call it as fuction 
+
+       
+       1. functions without parameter 
+   
+            
+            syntax : 
+               
+                function functionName(){
+
+                  console.log("sucessfully executed");
+                }
+
+
+      --- void method : it perform some action it doesnt provide any return value
+
+       2. functions with parameters
+        
+          syntax:
+
+               function functionName(param1 , param2) { 
+                  
+                  return param1 + param2;
+                   
+               }
+               functionName(value1 , value2);
+        
+        --- return  method : does some action and return some method
+
+
+
+
+  ----> Objects : object is a real world instance 
+
+
+  
+       ---> Class -  is a blue print
+
+
+
+    ---> syntax : 
+       
+            
+           var objectName()={
+
+                parameter: values,
+                parameter2: value,
+                parameter3: value 
+            }
+            objectName.parameter();
+
+
+     ex :  
+                   var stdDetails={
+                 
+                    name:"Uday",
+                    ID_no:"1437A8",
+                    Eduction:"Masters"
+                     
+                 }
+                 
+                 stdDetails.name; 
+    
+
+
+
+----> Object vs function 
+ 
+  Note : If function is decalred inside a object we call it as method 
+   
+    ex :
+
+                 var stdDetails={
+            
+                    name:"Uday",
+                    ID_no:"1437A8",
+                    Eduction:"Masters",
+                     msg:function(){
+                 
+                         console.log("The student name"+this.name +" ID_No is -"+this.ID_no);
+                     }
+                
+                  }
+                  stdDetails.msg();
+  
+  
+
+----> Notification keywords :  
+  
+    1.alert : it populate a msg over the screen 
+
+           alert("welcome to JS");
+
+    2.prompt: it populate a dialog box with a question and allow the user to enter the input
+       
+       prompt("write the question here");
+
+   
+    3.confirm :  it populate a msg over the screen and ask user to acccept or deny 
+
+       confirm("Please charge your phone");
 
              
