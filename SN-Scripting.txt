@@ -1,0 +1,117 @@
+
+
+----> Date : 7/11/26
+
+     ----> SN-Scripting :  
+       
+       ---> Client side - The logic is executed on the browser side and the actions are performed on the 
+          
+          forms , list of the table 
+    
+       ---> Server side - The logic is executed on the server side / database and actions are performed on the 
+          
+          DB  
+
+
+
+
+  ------> Client  side :  
+     
+      ---> Client scripts -- on forms  , lists 
+
+                we have 4 types of client scripts 
+
+                -- onLoad : on loading the form if you want to perform any actions you can perform 
+                  
+                      --- we can populate msgs , set some fields mandatory , hide fields , set up some value in that 
+                         fields  ,  clearing the value in the fields
+
+                    ---  alert , addInfoMessage("") , setMandatory("fieldname",booleanvalue)  ,  setVisible("fieldName",boolean value)
+                          setReadOnly("fieldname",booleanvalue) 
+
+                   --- g_form(to access the form we have to use it) --- glideObject 
+
+                       g_form.methodName();
+
+                     syntax :  
+                          
+                                function onLoad()
+                                {
+
+
+                                }
+
+            
+          User scenario 1 :I just want to populate a msg when i open a new form 
+
+                  Script : 
+                                function onLoad(){
+
+                                    alert("Welcome to Incident form");
+                                }
+
+   ----- ex :  
+                                //  g_form.setReadOnly("description",true);
+                                // g_form.setReadOnly("subcategory",true);
+                                // g_form.setValue("description","The client script is  working");
+                                //  g_form.setMandatory("description",true);
+                                // g_form.setVisible("description",false);
+                                
+        -- onChange : on Changing the field value we do some action or on updating the field 
+                    we will do some actions
+
+
+            user case1 :   When the category is software i want to set assignment group to software
+
+               
+               script :   
+                                     var cat = g_form.getValue("category");
+                                     
+                                        if(cat=="software"){
+                                     
+                                     	g_form.setValue("assignment_group","8a4dde73c6112278017a6a4baf547aa7");
+                                        }
+                                                                      
+                    2nd Way : 
+                     
+                              if(newValue=="software"){                           
+                           
+                           	g_form.setValue("assignment_group","8a4dde73c6112278017a6a4baf547aa7");
+                              }
+                                                
+
+   -- onSubmit  : On submitting the form if you want to perform any action we can perform by using onSubmit 
+    
+       ---- return true (allow the user to submit the form after filling the details)
+       ---- return false (block the user from submitting the form)          
+             
+               Script :  
+                                   var des = g_form.getValue("description");
+                                       if(des==""){
+                                      
+                                    	g_form.addErrorMessage("The description field must be  filled mandatory");
+                                      	return false;
+                                         }
+                                       return true;
+                         
+
+
+ -- onCellEdit : Restrict the user from updating the field from the cell lvl , listy lvl 
+
+      callback(true) --- allow the user 
+      callback(false) --  block the user
+
+
+    ---> User case 1 : 
+
+         Script :  
+            
+                      if(newValue==""){
+                      alert("You cannot update the hortdescription filled ");
+                     	callback(false);
+                       return;
+                     	
+                      }
+                      callback(true);
+         
+    
